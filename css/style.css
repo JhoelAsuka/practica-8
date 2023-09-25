@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fdfdfd;
+}
+.areaPrincipal { /*Así se define una clase*/
+    background-image: url("../img/fondo.jpg");/*agregar fondo de imagen al div*/
+    background-repeat: no-repeat;/*permitir o no que se repita una imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 1;/*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%;
+    /*Safari 3.0*/
+    -moz-background-size:100% 100%;
+    /*Gecko 1.9.2 (Firefox 3.6)*/
+    -o-background-size: 100% 100%;
+    /*Opera 9.5*/
+    background-size: 100% 100%;
+    /*Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers*/
+}
+#encabezado {
+    background: #0fd3ec;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+
+.piePagina{ 
+    width: 100%; /*ancho*/
+    height: 0;/*alto*/
+    background: #f77979; /*Color de fondo*/
+    color: rgb(0, 0, 0); /*Color de letra dentro de la clase*/
+    bottom: 0; /*Espacio de separación parte inferior*/
+    position:fixed;
+    left: 0; /*Alineación de contenidos a la izquierda*/
+
+}
+#menu{ /*identificador*/
+    height: 60px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+#datos {
+    width: 80%;
+    background-color: #d5e5ec;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #110d0d;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
